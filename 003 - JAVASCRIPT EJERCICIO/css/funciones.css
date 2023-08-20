@@ -1,0 +1,110 @@
+/*ESTILO PARA LA ETIQUETA HTML*/
+html 
+        {height: 100%;}
+
+/*TODOS LOS ELEMENTOS DEL HEADER*/
+header 
+        {display: flex;
+        justify-content:space-between;
+        background-color: rgb(34, 36, 41);
+        color: white;
+        align-items: center;
+        padding: 15px;}
+
+.logo img
+        {height: 70px;
+        margin-left: 15px;
+        border-radius: 15px;}
+
+.nav
+        {font-weight: 600;
+        font-size: 20px;
+        background-color: rgb(34, 36, 41);
+        padding: 5px;
+        padding-right: 18px;
+        color: white;}
+
+nav a:hover
+        {color: chocolate;}
+a 
+        {text-decoration: none;
+        color: white;}
+
+/*TODOS LOS ELEMENTOS DEL BODY*/
+
+.body 
+        {display: flex;
+        flex-direction: column;
+        background-image:url(../img/26380349-números-fondo-transparente.jpg);
+        margin: 0;
+        position: relative;
+        min-height: 100vh;}
+
+/*ESTILO DE COLUMNAS*/
+
+#ejercicio
+        {border-style:double;
+        border-width: 5px;
+        border-radius: 30px;}
+
+.row 
+        {display: flex;
+        padding: 15px;}
+
+.column1
+        {background-color:rgb(16,202,194);
+        flex: 50%;
+        padding:20px;
+        margin: 0 10px;}
+
+#img-center
+        {display: block;
+        margin-left: auto;
+        margin-right: auto;}
+.column2
+        {background-color:rgb(224,87,49);
+        flex: 50%;
+        padding:20px;
+        margin: 0 10px;}
+
+.column3
+        {background-color:rgb(241,163,11);
+        flex: 50%;
+        padding:20px;
+        margin: 0 10px;}
+
+/*ESTILO DE BOTONES*/
+button
+        {display: block;
+        width: 50%;
+        height: 40px;
+        background: #121e55;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        text-transform: uppercase;}
+
+/*ESTILO DE H2 H3 Y LEGENDS*/
+h2 
+        {text-align: center;
+        text-transform: uppercase;}
+
+h3
+        {text-transform: uppercase;}
+
+legend {text-align: center;}
+
+/*TODOS LOS ELEMENTOS DEL FOOTER*/
+
+.footer
+        {background-color: rgb(34, 36, 41);
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 1em 0px;
+        margin: 0 0px;
+        width: 100%;
+        margin-top:auto;}
